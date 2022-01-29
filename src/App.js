@@ -10,7 +10,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 
 
-const socket = io.connect("http://localhost:3001")
+const socket = io.connect("https://socketio-react-jvo978.herokuapp.com")
 
 function App() {
 
